@@ -5,6 +5,20 @@
     <meta charset="utf-8" />
     <title>Custom Journey Builder Activity</title>
 
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/require.js"></script>
+    <script type="text/javascript">
+      (function () {
+        var config = {
+          baseUrl: "",
+        };
+
+        var dependencies = ["customActivity"];
+
+        require(config, dependencies);
+      })();
+    </script>
+
     <!--Styles-->
     <style type="text/css">
       body {
